@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.item {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.grow {
+    flex-grow: 3;
+}
