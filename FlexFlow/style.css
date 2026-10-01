@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+.container > div {
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container-1 {
+    flex-flow: row nowrap;
+}
+
+.container-1 > div {
+    background-color: #007bff;
+}
+
+.container-2 {
+    flex-flow: row-reverse nowrap;
+}
+
+.container-2 > div {
+    background-color: #28a745;
+}
